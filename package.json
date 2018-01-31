@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
+    "precommit": "npm run production && npm run test",
     "test": "./node_modules/.bin/jest --coverage tests",
     "test:watch": "./node_modules/.bin/jest --coverage --watch tests",
     "dev": "./node_modules/.bin/webpack --config webpack.config.js",
@@ -20,14 +21,15 @@
   },
   "homepage": "https://github.com/gemmadlou/NPM-Package-Starter#readme",
   "devDependencies": {
-    "babel-loader": "^7.1.2",
-    "webpack": "^3.10.0",
     "babel-core": "^6.26.0",
     "babel-jest": "^22.1.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
+    "husky": "^0.14.3",
     "jest": "^22.1.4",
     "npm-install-webpack-plugin": "^4.0.5",
-    "uglifyjs-webpack-plugin": "^1.1.6"
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
   },
   "jest": {
     "verbose": true,
