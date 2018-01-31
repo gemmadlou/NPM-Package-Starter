@@ -1,3 +1,3 @@
 module.exports = (() => {
-    console.log('NPM Starter Plugin Is Active.');
+    console.log('NPM Starter Plugin Is Active!');
 });
