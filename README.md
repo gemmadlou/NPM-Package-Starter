@@ -69,7 +69,7 @@ yarn run test:watch
 
 Just submit an issue and I'd be happy to help.
 
-## Want to contribute?
+## Want to contribute?
 
 Add an issue, or fork and create a pull request. But it's a simple starter,
 so feel free to bend this to your will.
