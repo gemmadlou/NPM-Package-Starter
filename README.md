@@ -1,4 +1,4 @@
-# NPM-Package-Starter
+# NPM Package Starter
 
 This starter repo is to help build npm packages easily. Features are:
 
